@@ -1,0 +1,24 @@
+body {
+    font-family: Arial,  sans-serif; /* Font family */
+    font-size: 24px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #a5bac0; /* A cor do plano de fundo da página */
+    color: #000000; /* A cor do texto */ 
+}
+h1 {
+    color: #630f0f; /* A cor do cabeçalho */
+    font-size: 34px; /* A cor da fonte do cabeçalho */
+    font-family: Arial, sans-serif; /* A font usada no cabeçalho*/
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% { color: #630f0f; }
+    50% { color: #ff0000; }
+    100% { color: #630f0f; }
+}
+
+/*Efeito ao passar o mouse no título*/
+h1:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
